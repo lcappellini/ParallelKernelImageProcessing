@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kernel Image Processing CUDA", "Kernel Image Processing CUDA\Kernel Image Processing CUDA.vcxproj", "{F2B354C4-02F6-CA26-4E31-70758C9EFE7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release_AoSvsSoA|x64 = Release_AoSvsSoA|x64
+		Release_AVX2_OpenMP|x64 = Release_AVX2_OpenMP|x64
+		Release_AVX2|x64 = Release_AVX2|x64
+		Release_base|x64 = Release_base|x64
+		Release_CUDA|x64 = Release_CUDA|x64
+		Release_OpenMP|x64 = Release_OpenMP|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2B354C4-02F6-CA26-4E31-70758C9EFE7F}.Debug|x64.ActiveCfg = Debug|x64
+		{F2B354C4-02F6-CA26-4E31-70758C9EFE7F}.Debug|x64.Build.0 = Debug|x64
+		{F2B354C4-02F6-CA26-4E31-70758C9EFE7F}.Release_AoSvsSoA|x64.ActiveCfg = Release_AoSvsSoA|x64
+		{F2B354C4-02F6-CA26-4E31-70758C9EFE7F}.Release_AoSvsSoA|x64.Build.0 = Release_AoSvsSoA|x64
+		{F2B354C4-02F6-CA26-4E31-70758C9EFE7F}.Release_AVX2_OpenMP|x64.ActiveCfg = Release_AVX2_OpenMP|x64
+		{F2B354C4-02F6-CA26-4E31-70758C9EFE7F}.Release_AVX2_OpenMP|x64.Build.0 = Release_AVX2_OpenMP|x64
+		{F2B354C4-02F6-CA26-4E31-70758C9EFE7F}.Release_AVX2|x64.ActiveCfg = Release_AVX2|x64
+		{F2B354C4-02F6-CA26-4E31-70758C9EFE7F}.Release_AVX2|x64.Build.0 = Release_AVX2|x64
+		{F2B354C4-02F6-CA26-4E31-70758C9EFE7F}.Release_base|x64.ActiveCfg = Release|x64
+		{F2B354C4-02F6-CA26-4E31-70758C9EFE7F}.Release_base|x64.Build.0 = Release|x64
+		{F2B354C4-02F6-CA26-4E31-70758C9EFE7F}.Release_CUDA|x64.ActiveCfg = Release_CUDA|x64
+		{F2B354C4-02F6-CA26-4E31-70758C9EFE7F}.Release_CUDA|x64.Build.0 = Release_CUDA|x64
+		{F2B354C4-02F6-CA26-4E31-70758C9EFE7F}.Release_OpenMP|x64.ActiveCfg = Release_OpenMP|x64
+		{F2B354C4-02F6-CA26-4E31-70758C9EFE7F}.Release_OpenMP|x64.Build.0 = Release_OpenMP|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {812A0FDA-74C7-428A-96D1-A96ADD4E8B26}
+	EndGlobalSection
+EndGlobal
